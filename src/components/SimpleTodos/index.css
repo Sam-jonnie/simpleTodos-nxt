@@ -29,3 +29,48 @@
   list-style-type: none;
   padding: 0px;
 }
+
+.card {
+  width: 100%;
+  max-width: 800px;
+}
+
+.add-todo-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  outline: none;
+}
+
+.add-input:focus {
+  border-color: #ff7a45;
+}
+
+.add-button {
+  background-color: #ff7a45;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 0 22px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #e8652f;
+}
+
+@media screen and (min-width: 768px) {
+  .add-input,
+  .add-button {
+    font-size: 18px;
+  }
+}

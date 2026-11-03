@@ -33,3 +33,63 @@
     height: 35px;
   }
 }
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+  accent-color: #ff7a45;
+}
+
+.list-title {
+  flex: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.edit-input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ff7a45;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button {
+  background-color: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  font-size: 13px;
+  border-radius: 9px;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .edit-input {
+    font-size: 22px;
+  }
+
+  .edit-button {
+    font-size: 18px;
+    border-radius: 12px;
+    width: 85px;
+    height: 35px;
+  }
+}
